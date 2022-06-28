@@ -326,7 +326,7 @@
 		D34332261E5B961B0057EB54 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Quiet Modem Project";
 				TargetAttributes = {
 					D343322E1E5B961B0057EB54 = {
@@ -344,6 +344,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D34332251E5B961B0057EB54;
@@ -489,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -534,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,7 +556,7 @@
 				"HEADER_SEARCH_PATHS[sdk=*]" = "$SRCROOT/include/$CONFIGURATION-$PLATFORM_NAME";
 				INFOPLIST_FILE = QuietModemKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$SRCROOT/lib/Debug-iphoneos";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$SRCROOT/lib/Debug-iphonesimulator";
@@ -583,7 +584,7 @@
 				"HEADER_SEARCH_PATHS[sdk=*]" = "$SRCROOT/include/$CONFIGURATION-$PLATFORM_NAME";
 				INFOPLIST_FILE = QuietModemKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "$SRCROOT/lib/Release-iphoneos";
 				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "$SRCROOT/lib/Release-iphonesimulator";
