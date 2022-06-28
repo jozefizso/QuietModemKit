@@ -8,7 +8,7 @@ With this library, you can send data through sound.
 Live demo: https://quiet.github.io/quiet-js/
 
 Other platforms:
-* Javascript: https://github.com/quiet/quiet-js
+* JavaScript: https://github.com/quiet/quiet-js
 * Android: https://github.com/quiet/org.quietmodem.Quiet
 
 Why sound? Isn't that outdated?
@@ -33,7 +33,17 @@ Building
 --------------
 CMake is required to build QuietModemKit. If you aren't sure if you have CMake installed, run `brew install cmake`.
 
-It is recommended that you use Carthage to build QuietModemKit. Simply run `brew install cmake` and then add `github "Quiet/QuietModemKit"` to your Cartfile and run `carthage update`.
+To build the project, use Xcode 12.4 on macOS 10.15.
+
+```sh
+xcodebuild -configuration Debug build
+```
+
+Using QuietModemKit in application
+--------------
+
+Use Carthage to integrat QuietModemKit with your project.  
+Add `github "jozefizso/QuietModemKit"` to your `Cartfile` and run `carthage update`.
 
 Example
 --------------
